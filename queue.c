@@ -62,3 +62,12 @@ int insere_inicio(int N, no **inicio, no **fim){
 
 	return(1);
 }
+
+int remove (no **inicio){
+	if((*inicio) == NULL) return (-1);
+	no *aux = (*inicio);
+	int N = aux -> chave;
+	(*inicio) = (*incio) -> prox;
+	free(aux);
+	return(N);
+}
