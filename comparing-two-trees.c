@@ -28,7 +28,6 @@ void main(void){
 	time_t entrada, saida;
 	char resp;
 
-
 	do{
 		printf("  Menu de opcoes:\n\n");
 		
